@@ -2,16 +2,16 @@ import numpy as np
 
 macierz = np.zeros((5, 5), dtype=int)
 
-macierz[0, :] = 1  # Górny brzeg
-macierz[-1, :] = 1  # Dolny brzeg
-macierz[:, 0] = 1  # Lewy brzeg
-macierz[:, -1] = 1  # Prawy brzeg
+macierz[0, :] = 1
+macierz[-1, :] = 1
+macierz[:, 0] = 1
+macierz[:, -1] = 1
 
 print("Macierz z jedynkami na brzegach:\n", macierz)
 
 
 def zamien(macierz):
-    return 1 - macierz  # Zamiana: 0 -> 1 i 1 -> 0
+    return 1 - macierz
 
 
 odwrocona_macierz = zamien(macierz)
