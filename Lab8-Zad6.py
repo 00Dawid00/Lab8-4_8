@@ -32,9 +32,9 @@ print()
 
 print("E")
 tablica_d = np.zeros((3, 3), dtype=int)
-tablica_d[1, 1] = 1  # b2
-tablica_d[1, 2] = 1  # b3
-tablica_d[2, 1] = 1  # c2
-tablica_d[2, 2] = 1  # c3
+tablica_d[1, 1] = 1
+tablica_d[1, 2] = 1
+tablica_d[2, 1] = 1
+tablica_d[2, 2] = 1
 print(tablica_d)
 print()
